@@ -1,28 +1,48 @@
-# TASK-NAME
+# React Review
 
-This is the template for tasks. These repos are the starting points and instructions for students to explore a concept.
+In this task, we will make a website that looks like [this](https://furends.netlify.app 'this').
 
-## Instructions
+###Data file
 
-Add instructions here. This is github flavoured markdown so you can be as creative as you want. Add code snippets, images, gifs, checkboxes, anything you want.
+1. In src, create a file called `petsData.js`.
+2. Copy the data from `petsData` file from [this](https://github.com/JoinCODED/React-review 'this') repo.
 
-### 1. Extract Components
+###Pets List Component
 
-- [ ] Look at the html in `index.html`
-- [ ] Move it into `App.js`
-- [ ] Do you see those cards? Can you turn them into a component??
+1. Create a components folder inside `src`.
+2. Create a new file and name it `PetsList.js`.
+3. Create a function that represents your component.
+4. Export your component and import it in `App.js`.
+5. Use the new component in `App.js`.
+6. Open the `React Dev Tools` and click on component. Your new component `PetsList` should be under `App`.
+7. Import your `data` file in `PetsList.js`.
+8. Map over your pets array, return the JSX code that represents one pet with its image and name.
+9. Save your new array in a variable called `petsList`.
+10. Render `petsList`.
 
-It should look like this:
+###Pet Item Component
 
-![screenshot](https://tenor.com/xNjE.gif)
+11. Create a new file for your pet item component and name it `PetItem`.
+12. Move the relevant JSX from the list component to the new component.
+13. In your `PetList` component, import your `PetItem` component.
+14. In the map method, render the `PetItem` component and pass your `pet` as a prop.
+15. In your `PetItem` component, pass props as your function's argument.
+16. Make sure to render the pet name and image.
+17. Create a state for the pet image with an inital value of `"image"`.
+18. Pass it to the image src html tag.
+19. Create a button that changes the state from `"image"` to `"image2"`
+20. Test your code, the button should change the image to a gif!
 
-### 2. Do the thing
+###Search Bar
 
-Explanation of the thing and why we're about to do it. Cool right?
+1. Create a search bar component and rendere it in `PetsList`.
+2. `PetsList`, create a state called `query` and a method called `setQuery`.
+3. Pass `setQuery`as a prop to `SearchBar`.
+4. In the input tag of `SearchBar` add an onChange method that calls `props.setQuery()` and gives it `event.target.value` as an argument.
+5. At this point, whatever you type in your search bar should appear in the `query` state.
+6. In your `PetsList`, filter your pets by comparing your pet's name with `query` using `includes`.
+7. At this point, our search bar is case sensitive. Fix it so that it becomes case insensitive.
 
-- [ ] Make a `store.js` file
-- [ ] Copy + Paste broken code:  
-  ```js
-  console.log("lol");
-  ```
-- [ ] Have an explanation ready for when Zainab interrogates you
+###Challenge
+
+Can you filter the pets by their type using an html `select` tag and an `onChange` method?
