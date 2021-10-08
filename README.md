@@ -22,16 +22,16 @@ In this task, we will make a website that looks like [this](https://furends.netl
 
 ###Pet Item Component
 
-11. Create a new file for your pet item component and name it `PetItem`.
-12. Move the relevant JSX from the list component to the new component.
-13. In your `PetList` component, import your `PetItem` component.
-14. In the map method, render the `PetItem` component and pass your `pet` as a prop.
-15. In your `PetItem` component, pass props as your function's argument.
-16. Make sure to render the pet name and image.
-17. Create a state for the pet image with an inital value of `"image"`.
-18. Pass it to the image src html tag.
-19. Create a button that changes the state from `"image"` to `"image2"`
-20. Test your code, the button should change the image to a gif!
+1. Create a new file for your pet item component and name it `PetItem`.
+2. Move the relevant JSX from the list component to the new component.
+3. In your `PetList` component, import your `PetItem` component.
+4. In the map method, render the `PetItem` component and pass your `pet` as a prop.
+5. In your `PetItem` component, pass props as your function's argument.
+6. Make sure to render the pet name and image.
+7. Create a state for the pet image with an inital value of `"image"`.
+8. Pass it to the image src html tag.
+9. Create a button that changes the state from `"image"` to `"image2"`
+10. Test your code, the button should change the image to a gif!
 
 ###Search Bar
 
