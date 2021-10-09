@@ -1,5 +1,3 @@
-# React Review
-
 In this task, we will make a website that looks like [this](https://furends.netlify.app 'this').
 
 ###Data file
