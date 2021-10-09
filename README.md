@@ -28,7 +28,7 @@ In this task, we will make a website that looks like [this](https://furends.netl
 6. Make sure to render the pet name and image.
 7. Create a state for the pet image with an inital value of `pet.image`.
 8. Pass it to the image src html tag.
-9. Create a button that changes the state from `"image"` to `"pet.image2"`
+9. Create a button that changes the state from `"pet.image` to `"pet.image2"`
 10. Test your code, the button should change the image to a gif!
 
 ### Search Bar
