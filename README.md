@@ -39,7 +39,7 @@ In this task, we will make a website that looks like [this](https://furends.netl
 2. in `PetsList`, create a state called `query` and a method called `setQuery`.
 3. Pass `setQuery`as a prop to `SearchBar`.
 4. In the input tag of `SearchBar` add an onChange method that calls `props.setQuery()` and gives it `event.target.value` as an argument.
-5. At this point, whatever you type in your search bar should appear in the `query` state.
+5. At this point, whatever you type in your search bar should appear in the `query` state in `React Dev Tools`.
 6. In your `PetsList`, filter your pets by comparing your pet's name with `query` using `includes`.
 7. At this point, our search bar is case sensitive. Fix it so that it becomes case insensitive.
 
