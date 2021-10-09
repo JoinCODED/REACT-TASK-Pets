@@ -1,11 +1,11 @@
 In this task, we will make a website that looks like [this](https://furends.netlify.app 'this').
 
-###Data file
+### Data file
 
 1. In src, create a file called `petsData.js`.
 2. Copy the data from `petsData` file from [this](https://github.com/JoinCODED/React-review 'this') repo.
 
-###Pets List Component
+### Pets List Component
 
 1. Create a components folder inside `src`.
 2. Create a new file and name it `PetsList.js`.
@@ -18,7 +18,7 @@ In this task, we will make a website that looks like [this](https://furends.netl
 9. Save your new array in a variable called `petsList`.
 10. Render `petsList`.
 
-###Pet Item Component
+### Pet Item Component
 
 1. Create a new file for your pet item component and name it `PetItem`.
 2. Move the relevant JSX from the list component to the new component.
@@ -31,7 +31,7 @@ In this task, we will make a website that looks like [this](https://furends.netl
 9. Create a button that changes the state from `"image"` to `"image2"`
 10. Test your code, the button should change the image to a gif!
 
-###Search Bar
+### Search Bar
 
 1. Create a search bar component and render it in `PetsList`.
 2. in `PetsList`, create a state called `query` and a method called `setQuery`.
@@ -41,6 +41,6 @@ In this task, we will make a website that looks like [this](https://furends.netl
 6. In your `PetsList`, filter your pets by comparing your pet's name with `query` using `includes`.
 7. At this point, our search bar is case sensitive. Fix it so that it becomes case insensitive.
 
-###Challenge
+### Challenge
 
 Can you filter the pets by their type using an html `select` tag and an `onChange` method?
