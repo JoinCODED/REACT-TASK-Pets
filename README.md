@@ -26,9 +26,9 @@ In this task, we will make a website that looks like [this](https://furends.netl
 4. In the map method, render the `PetItem` component and pass your `pet` as a prop.
 5. In your `PetItem` component, pass props as your function's argument.
 6. Make sure to render the pet name and image.
-7. Create a state for the pet image with an inital value of `"image"`.
+7. Create a state for the pet image with an inital value of `pet.image`.
 8. Pass it to the image src html tag.
-9. Create a button that changes the state from `"image"` to `"image2"`
+9. Create a button that changes the state from `"image"` to `"pet.image2"`
 10. Test your code, the button should change the image to a gif!
 
 ### Search Bar
@@ -44,3 +44,9 @@ In this task, we will make a website that looks like [this](https://furends.netl
 ### Challenge
 
 Can you filter the pets by their type using an html `select` tag and an `onChange` method?
+
+const sayHi = () => {log("say ${name})}
+
+<button onClick={sayHi}></button>
+<input onChange={(event)=>sayHi(event.target.value)}></button>
+<select >
